@@ -7,7 +7,7 @@
                 <mxCell id="DnkCzbvQFBXvj7n7dTfT-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DnkCzbvQFBXvj7n7dTfT-1" target="DnkCzbvQFBXvj7n7dTfT-2" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="DnkCzbvQFBXvj7n7dTfT-1" value="SecondArrayWithIf" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="DnkCzbvQFBXvj7n7dTfT-1" value="SecondArray" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="330" y="10" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="DnkCzbvQFBXvj7n7dTfT-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DnkCzbvQFBXvj7n7dTfT-2" target="DnkCzbvQFBXvj7n7dTfT-3" edge="1">
@@ -20,7 +20,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="DnkCzbvQFBXvj7n7dTfT-3" value="for (int i = 0;&lt;br&gt;i &amp;lt; array1.length;&lt;br&gt;i++)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-                    <mxGeometry x="330" y="210" width="120" height="80" as="geometry"/>
+                    <mxGeometry x="330" y="210" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="B7fp_Nzf1htRCQnwWERk-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DnkCzbvQFBXvj7n7dTfT-4" target="DnkCzbvQFBXvj7n7dTfT-5" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -28,11 +28,11 @@
                 <mxCell id="DnkCzbvQFBXvj7n7dTfT-4" value="if (array1[i].length &amp;lt;= 3)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="277.5" y="350" width="225" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="DnkCzbvQFBXvj7n7dTfT-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DnkCzbvQFBXvj7n7dTfT-5" target="DnkCzbvQFBXvj7n7dTfT-3" edge="1">
+                <mxCell id="DnkCzbvQFBXvj7n7dTfT-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DnkCzbvQFBXvj7n7dTfT-5" target="DnkCzbvQFBXvj7n7dTfT-3" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="DnkCzbvQFBXvj7n7dTfT-5" value="array2[count] = array1[i]&lt;br&gt;count++;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="225" width="177.5" height="50" as="geometry"/>
+                    <mxGeometry x="30" y="290" width="177.5" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="B7fp_Nzf1htRCQnwWERk-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DnkCzbvQFBXvj7n7dTfT-4" target="DnkCzbvQFBXvj7n7dTfT-3" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -40,7 +40,7 @@
                         <mxPoint x="350" y="275" as="targetPoint"/>
                         <Array as="points">
                             <mxPoint x="550" y="390"/>
-                            <mxPoint x="550" y="250"/>
+                            <mxPoint x="550" y="240"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
