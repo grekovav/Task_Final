@@ -14,6 +14,7 @@ void SecondArray(string[] array1, string[] array2)
 }
 void PrintArray(string[] array)
 {
+    Console.WriteLine("Строки, длина которых меньше либо равна 3 символа:");
     for (int i = 0; i < array.Length; i++)
     {
         Console.Write($"{array[i]} ");
